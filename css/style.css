@@ -1,0 +1,54 @@
+/* remove the navbar's default margin-top and rounded borders */
+.navbar{
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.carousel-inner img{
+	width: 100%;
+	margin-top: auto;
+	min-height: 200px;
+}
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+ @media (max-width: 600px) {
+ 	.carousel-caption {
+ 		display: none;
+ 	}
+ }
+
+ /* Navigasi */
+/* text in navigation (logo) */
+ .text-nav{
+ 	margin-left: 10px;
+ 	font-size: 15px;
+ 	color: #ffffff;
+ }
+.navbar-inverse{
+	background-color: #EF4836;
+	
+}
+
+
+/* footer */
+ #footer{
+ 	/*background-color: #34495E;*/ background-color: #EF4836;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: #ffffff;
+ }
+
+ .icon{
+ 	font-size: 20px;
+ }
+
+ .footer2{
+ 	width: auto;
+	/*background-color: #67809F;*/ background-color: #F9690E;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: #ffffff;
+ }
